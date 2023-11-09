@@ -1,0 +1,555 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     width: 100%;
+     height: 100%;
+     font-family: "Open Sans", sans-serif;
+}
+
+.navbar{
+     display: flex;
+     padding: 1rem 2rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 2.5rem;
+}
+
+.nav-title-list {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: .5rem;
+}
+
+.nav-link {
+     display: flex;
+     gap: 1rem;
+}
+
+#menu {
+     display: none;
+}
+
+.menu-container {
+     display: none;
+}
+
+.main-section {
+     width: 95%;
+     height: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2rem;
+}
+
+.client-info-div {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+     gap: 1rem;
+     margin-top: 2rem;
+     padding: 2rem 0 2rem .7rem;
+}
+
+.title-color {
+     font-size: 2.3rem;
+     color: #f4952c;
+}
+
+.co-title {
+     text-align: center;
+     font-size: 3rem;
+}
+
+.client-info {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     margin-top: 10rem;
+     gap: 2rem;
+}
+
+.client-list {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.client-card {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 330px;
+     height: 400px;
+     padding: 2rem 1rem 1rem 1rem;
+     line-height: 1.5;   
+     gap: 1rem;
+     border-radius: 30px;
+}
+
+.card-div:hover {
+     background-color: #000;
+     transition: all ease-in .4s;
+     color: #fff;
+}
+
+.card-div {
+     position: relative;
+}
+
+.image-1 {
+     position: absolute;
+     top: -90px;
+     right: 90px;
+}
+
+.client-para {
+     text-align: center;
+}
+
+.advertising-card {
+     width: 100%;
+     height: 900px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #F8F0E5;
+     border-radius: 30px;
+     gap: 2rem;
+     margin-bottom: 5rem;
+}
+
+.info-list {
+     display: flex;
+     width: 420px;
+     justify-content: center;
+     align-items: center;
+}
+
+.advertising-info {
+     display: flex;
+     flex-direction: column;
+     flex-basis: 40%;
+     gap: 1.8rem;
+}
+
+.advertising-img {
+     flex-basis: 40%;
+}
+
+.btn-list {
+     display: flex;
+     gap: 1rem;
+}
+
+.ads-card {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+     border: 1px solid #000;
+     justify-content: center;
+     align-items: center;
+}
+
+#container {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     margin-top: 5rem;
+     padding: 2rem;
+     border-radius: 30px;
+     background-color: #F8F0E5;
+}
+
+#card-container {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 4rem;
+     padding: 2rem;
+     gap: 2rem;
+}
+
+.card {
+     display: flex;
+     gap: 1rem;
+     width: 600px;
+     height: 200px;
+     padding: 1rem;
+     border-radius: 20px;
+}
+
+.card:hover {
+     background-color: #282727;
+     transition: all ease-in .4s;
+     color: #fff;
+}
+
+.card-image {
+     width: 150px;
+     height: 150px;
+     border-radius: 10px;
+     border: 5px solid #f4952c;
+}
+
+.card-info {
+     display: flex;
+     flex-direction: column;
+     width: 400px;
+     height: auto;
+}
+
+.title-list {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 1px solid rgb(105, 103, 103);
+     width: 390px;
+     margin-left: 4px;
+}
+
+.price {
+     color: #f4952c;
+}
+
+.para {
+     margin-top: 1rem;
+     margin-left: .5rem;
+}
+
+.fa-star {
+     color: #f4952c;
+}
+
+.faq-page {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 3rem;
+}
+
+.faq-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 70%;
+     height: 100%;
+     background-color: aliceblue;
+     padding: 4rem;
+     border-radius: 10px;
+}
+
+.ques-div {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     margin-top: 4rem;
+}
+
+.qus-para {
+     text-align: center;
+     padding-top: 1.2rem;
+}
+
+.qus-list {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 10px;
+     font-size: 1.2rem;
+     font-weight: 500;
+     font-family: serif;
+     letter-spacing: 2px;
+     padding: 1rem 1.15rem;
+     width: 600px;
+     height: 100px;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     background-color: #fff;
+}
+
+.fa-plus {
+     text-align: center;
+     border-radius: 5px;
+}
+
+.fa-plus:hover{
+     transform: rotate(45deg);
+}
+
+.footer-section {
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-start;
+     width: 95%;
+     height: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 4rem;
+     padding: 2rem 0;
+}
+
+.footer-img {
+     flex-basis: 20%;
+     margin-right: 3rem;
+     display: flex;
+     justify-content: flex-start;
+}
+
+.footer-info {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 6rem;
+     flex-basis: 80%;
+}
+
+.footer-list-item {
+     padding: .5rem 0;
+}
+
+.line-break {
+     border-bottom: 1px solid rgb(105, 103, 103);
+}
+
+@media screen and (max-width: 600px) {
+     .wrapper {
+          display: flex;
+          flex-direction: column;
+     }
+     .nav-link{
+          display: none;
+     }
+     #menu {
+          display: flex;
+          padding: 10px;
+          align-items: flex-start;
+          background: url(image/Icon\ -\ Menu.png) no-repeat center;
+          background-size: cover;
+          width: 40px;
+          height: 24px;
+          margin: .5rem;
+          border: none;
+     }
+     .nav-item {
+          color: #fff;
+     }
+     .menu-container {
+          width: 600px;
+          height: 600px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          transition: all .4s linear;
+          position: absolute;
+          top: 0;
+          left: -100%;
+          background-color: #000;
+          z-index: 1;
+     }
+
+
+     .block {
+           left: 0;
+
+     }
+
+     .nav-list {
+          padding: 2rem 0;
+     }
+     .main-section {
+          position: relative;
+          z-index: 0;
+     }
+
+     .advertising-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+     }
+
+     .advertising-card {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .bread-img {
+          width: 80%;
+     }
+
+     .advertising-img {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     .card {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+          width: 400px;
+          height: 400px;
+     }
+     
+     .card:hover {
+          background-color: #282727;
+          transition: all ease-in .4s;
+          color: #fff;
+     }
+     
+     .card-image {
+          width: 300px;
+          height: 150px;
+          border-radius: 10px;
+          border: 5px solid #f4952c;
+     }
+     
+     .card-info {
+          display: flex;
+          flex-direction: column;
+          width: 400px;
+          height: auto;
+     }
+     #btn-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+     }
+     #container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     #card-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     .card-div {
+          display: flex;
+          flex-direction: column;
+     }
+     .client-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 6rem;
+     }
+     .footer-section {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+     }
+     .footer-info {
+          display: flex;
+          flex-wrap: wrap;
+          width: 500px;
+          padding-top: 2rem;
+     }
+}
+
+li {
+     list-style: none;
+}
+
+a {
+     text-decoration: none;
+     font-size: 1.1rem;
+     font-weight: 500;
+     color: rgb(105, 103, 103);
+}
+
+h1 {
+     font-size: 3.25rem;
+     font-weight: 600;
+   }
+   h2 {
+     font-size: 1.8rem;
+     font-weight: 600;
+   }
+   h3 {
+     font-size: 1.25rem;
+     font-weight: 600;
+   }
+   h4 {
+     font-size: 1rem;
+     font-weight: 600;
+  letter-spacing: .1rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+   }
+
+h1,
+h2,
+h3{
+  letter-spacing: .1rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+p {
+     margin-bottom: 1.25rem;
+     font-size: 1.15rem;
+     color: rgb(95, 88, 88);
+   }
+
+image {
+     width: 100%;
+   }
+
+button {
+     font-size: 1rem;
+     font-weight: 500;
+     padding: 1rem 2rem;
+     border-radius: 30px;
+     background-color: #f4952c;
+     color: #fff;
+     border: none;
+   }
+
+#custom-btn{
+     font-size: 1rem;
+     font-weight: 500;
+     padding: 1rem 1.5rem;
+     border-radius: 30px;
+     border: none;
+     background-color: #000;
+}
+
+
+#close {
+     color: #fff;
+}
