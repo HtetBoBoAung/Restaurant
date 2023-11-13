@@ -101,10 +101,12 @@ body {
      background-color: #000;
      transition: all ease-in .4s;
      color: #fff;
+     border-radius: 20px;
 }
 
 .card-div {
      position: relative;
+     border-radius: 20px;
 }
 
 .image-1 {
@@ -257,6 +259,7 @@ body {
      background-color: aliceblue;
      padding: 4rem;
      border-radius: 10px;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .ques-div {
@@ -273,6 +276,50 @@ body {
      padding-top: 1.2rem;
 }
 
+.add-text {
+     display: flex;
+     flex-direction: column;
+     width: 600px;
+     height: 100px;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     border-radius: 10px;
+     font-size: 1.2rem;
+     font-weight: 500;
+     font-family: serif;
+     background-color: #fff;
+     border: 2px solid #f4952c;
+}
+
+.add {
+     height: 230px;
+}
+
+.line-break {
+     width: 560px;
+     border-bottom: 1px solid #f4952c;
+     margin-left: 1rem;
+     display: none;
+}
+
+.break {
+     display: block;
+}
+
+.show {
+     display: block;
+}
+
+.lorem {
+     font-size: 1.2rem;
+     font-weight: 500;
+     font-family: serif;
+     letter-spacing: 1px;
+     padding: 1rem 1.15rem;
+     color: #000;
+     background-color: #fff;
+     display: none;
+}
+
 .qus-list {
      display: flex;
      justify-content: space-between;
@@ -283,15 +330,13 @@ body {
      font-family: serif;
      letter-spacing: 2px;
      padding: 1rem 1.15rem;
-     width: 600px;
-     height: 100px;
-     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
      background-color: #fff;
 }
 
-.fa-plus {
-     text-align: center;
+.addBtn {
+     padding: 2px 5px;
      border-radius: 5px;
+     font-size: 1.5rem;
 }
 
 .fa-plus:hover{

@@ -83,6 +83,16 @@ const menuBtn = document.getElementById("menu");
 const menuContainer = document.querySelector(".menu-container");
 const closeBtn = document.getElementById("close");
 
+//start
+const addBtn = document.querySelectorAll(".addBtn");
+const para = document.querySelectorAll(".lorem")
+const lineBreak = document.querySelectorAll(".line-break");
+const qusContainer = document.querySelectorAll(".add-text");
+const faqContainer = document.querySelector(".faq-page");
+
+console.log(para[0].textContent);
+//
+
 
 function displayMenu() {
      menuContainer.classList.toggle("block");
@@ -180,6 +190,3 @@ window.addEventListener("DOMContentLoaded", () => {
 }
 );
 
-//categort btn => 
-//all
-//displayfunction()
