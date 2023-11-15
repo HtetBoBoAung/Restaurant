@@ -274,13 +274,15 @@ body {
 .qus-para {
      text-align: center;
      padding-top: 1.2rem;
+     font-size: 1.2rem;
+     font-weight: 600;
 }
 
 .add-text {
      display: flex;
      flex-direction: column;
      width: 600px;
-     height: 100px;
+     height: auto;
      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
      border-radius: 10px;
      font-size: 1.2rem;
@@ -290,24 +292,22 @@ body {
      border: 2px solid #f4952c;
 }
 
-.add {
-     height: 230px;
-}
-
 .line-break {
      width: 560px;
      border-bottom: 1px solid #f4952c;
      margin-left: 1rem;
+     display: block;
+}
+
+.show-container {
      display: none;
+     flex-direction: column;
 }
 
-.break {
+.block {
      display: block;
 }
 
-.show {
-     display: block;
-}
 
 .lorem {
      font-size: 1.2rem;
@@ -317,7 +317,7 @@ body {
      padding: 1rem 1.15rem;
      color: #000;
      background-color: #fff;
-     display: none;
+     display: block;
 }
 
 .qus-list {
@@ -522,6 +522,30 @@ body {
           flex-wrap: wrap;
           width: 500px;
           padding-top: 2rem;
+     }
+
+     .faq-page {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .faq-container {
+          display: flex;
+          flex-direction: column;
+          width: 600px;
+     }
+
+     .ques-div {
+          padding: 1rem;
+          margin: 4rem 1rem;
+     }
+
+     .add-text {
+          width: 560px;
+     }
+
+     .line-break {
+          width: 525px;
      }
 }
 

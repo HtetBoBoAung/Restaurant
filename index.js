@@ -84,13 +84,11 @@ const menuContainer = document.querySelector(".menu-container");
 const closeBtn = document.getElementById("close");
 
 //start
-const addBtn = document.querySelectorAll(".addBtn");
+
 const para = document.querySelectorAll(".lorem")
 const lineBreak = document.querySelectorAll(".line-break");
 const qusContainer = document.querySelectorAll(".add-text");
 const faqContainer = document.querySelector(".faq-page");
-
-console.log(para[0].textContent);
 //
 
 
@@ -186,7 +184,24 @@ function displayBtn(){
 window.addEventListener("DOMContentLoaded", () => {
      displayFunction(menu);
      displayBtn();
-     cardFunction();
+     cardFunction(); 
 }
 );
 
+//start = 2hr58min
+const question = document.querySelectorAll(".qus-list");
+const answer = document.querySelectorAll(".show-container");
+const addBtn = document.querySelectorAll(".addBtn");
+
+question.forEach((qus, index) => {
+     qus.addEventListener("click", () => {
+         addBtn.forEach((btn, btnIndex) => {
+             if (index === btnIndex) {
+                 answer[index].classList.toggle("block");
+             } else {
+                 answer[btnIndex].classList.remove("block");
+             }
+         });
+     });
+ });
+ //3hr 42min
